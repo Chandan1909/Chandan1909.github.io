@@ -45,12 +45,12 @@ ScrollReveal({
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content h1, .about-img, .tech-heading', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 
 const typed=new Typed('.multiple-text',{
-    strings:['Frontend Developer ','Backend Developer ','Data Engineer ','UI UX Desginer '],
+    strings:['Full Stack Developer','Data Engineer ','UI UX Desginer '],
     startDelay:700,
     typeSpeed:50,
     backSpeed:50,
